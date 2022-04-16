@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
 
 :root {
     --bg1: #1a1b21; // Background 1
@@ -6,13 +6,16 @@
     --bg3: #23252c; // Main Background
     --color1: #ffffff; // Buttons
     --color2: #374151; // Email Text
-    --color3: #f3bf99; // Job
+    --color3: #ff4500; // Job
     --color4: #f5f5f5; // Content Title
     --color5: #dcdcdc; // Content Text
     --color6: #918e9b; // Socials
     --color7: #1e1f26; // Email Logo
     --color8: #ffffff; // Main Title
     --color9: #f5f5f5; // Website
+    --color10: #f5f5f5; // Email Button Border
+    --changecolor: #f5f5f5; // span.change-color Background
+    --brushcolor: #2b283a; // brush-logo Background
 }
 
 * {
@@ -27,7 +30,7 @@ html {
 
 body {
     background-color: var(--bg3);
-    user-select: none;
+    // user-select: none;
 }
 
 a {
@@ -60,14 +63,14 @@ div.info {
         }
         h2.job {
             font-size: 16px;
-            font-weight: 400;
+            font-weight: 500;
             color: var(--color3);
             margin: 5px 0;
         }
         a.website {
             display: block;
             font-size: 12px;
-            font-weight: 300;
+            font-weight: 500;
             color: var(--color9);
             margin: 5px 0;
         }
@@ -76,10 +79,11 @@ div.info {
             background-color: var(--color1);
             color: var(--color2);
             width: 100%;
-            padding: 6px 0;
+            padding: 5px 0;
             border-radius: 6px;
             font-weight: 500;
             margin: 5px 0;
+            border: 2px solid var(--color10);
 
             i.email-logo {
                 margin-right: 5px;
@@ -93,9 +97,12 @@ div.info {
         top: 10px;
         left: 10px;
         cursor: pointer;
+        background-color: var(--changecolor);
+        padding: 3px 5px;
+        border-radius: 50%;
 
         i.brush-logo {
-            color: var(--color6);
+            color: var(--brushcolor);
         }
     }
 }
@@ -115,7 +122,7 @@ div.interests {
     p.interests-content {
         color: var(--color5);
         font-size: 13px;
-        font-weight: 300;
+        font-weight: 400;
     }
 }
 
