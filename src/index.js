@@ -1,7 +1,13 @@
+/*
+    THIS FILE WAS DEVELOPED BY MEHMET GUDUK
+    © 2022 COPYRIGHT, LICENSED WITH GPL-3.0 LICENSE, AUTHOR IS MEHMET GUDUK
+    https://github.com/mehmetguduk
+*/
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './style.css';
 import App from './App';
+import './style.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

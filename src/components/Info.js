@@ -1,3 +1,9 @@
+/*
+    THIS FILE WAS DEVELOPED BY MEHMET GUDUK
+    © 2022 COPYRIGHT, LICENSED WITH GPL-3.0 LICENSE, AUTHOR IS MEHMET GUDUK
+    https://github.com/mehmetguduk
+*/
+
 import React from 'react';
 import mehmetguduk from "../images/mehmetguduk.jpg"
 
@@ -55,6 +61,7 @@ function changeToLight() {
     root.style.setProperty('--color8', '#2B283A');
     root.style.setProperty('--color9', '#4A4E74');
     root.style.setProperty('--color10', '#d1d5db');
+    root.style.setProperty('--color11', '#2B283A');
     root.style.setProperty('--changecolor', '#161619');
     root.style.setProperty('--brushcolor', '#f5f5f5');
 }
@@ -68,6 +75,7 @@ function changeToDark() {
     root.style.setProperty('--color8', '#ffffff');
     root.style.setProperty('--color9', '#f5f5f5');
     root.style.setProperty('--color10', '#f5f5f5');
+    root.style.setProperty('--color11', '#ffffff');
     root.style.setProperty('--changecolor', '#f5f5f5');
     root.style.setProperty('--brushcolor', '#2b283a');
 }
