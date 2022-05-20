@@ -1,2 +1,2 @@
 # Digital Business Card
-#### digitalbusinesscard-mg.netlify.app
+#### https://digitalbusinesscard-mg.netlify.app/
